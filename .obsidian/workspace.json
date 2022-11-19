@@ -1,0 +1,140 @@
+{
+  "main": {
+    "id": "c81f6476d7359844",
+    "type": "split",
+    "children": [
+      {
+        "id": "0d645e4cbebf6408",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c84ca4944dc7a03e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "920fc70e4a0481fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "c4afb872f04dfbf6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "474f7a0325313927",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1ba88891a6176b12",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ed254de59664f490",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4dd893c76de589b0",
+    "type": "split",
+    "children": [
+      {
+        "id": "4c429479d9bbaef9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "02e1a0b7833470e7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bbd647da73f489c3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4571aa601d0f404b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e7f9a1b81f70be7a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "474f7a0325313927",
+  "lastOpenFiles": [
+    "2022-11-20.md",
+    "Docker.md",
+    "AWS/Data Protection Services.md",
+    "ansible/Ansible.md",
+    "Untitled.md"
+  ]
+}
