@@ -27,37 +27,9 @@
 ### Illustrating IAM Users
 1) IAM user policy example that allow access to s3 bucket
   - Granting permissions to multiple accounts with added conditions
-  ![[s3.png]]
   
-{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Sid": "AddCannedAcl",
-            "Effect": "Allow",
-            "Principal": {
-                "AWS": [
-                    "arn:aws:iam::111122223333:root",
-                    "arn:aws:iam::444455556666:root"
-                ]
-            },p
-            "Action": [
-                "s3:PutObject",
-                "s3:PutObjectAcl",
-                "s3:GetObject",
-                "s3:GetObjectVersion"
-            ],
-            "Resource": "arn:aws:s3:::DOC-EXAMPLE-BUCKET/*",
-            "Condition": {
-                "StringEquals": {
-                    "s3:x-amz-acl": [
-                        "public-read"
-                    ]
-                }
-            }
-        }
-    ]
-}
+![S3 Bucket example](https://github.com/sabiut/-conceptualize/blob/master/AWS/s3.png)
+
 
 
 # Identity and Access Management(IAM) Practice
