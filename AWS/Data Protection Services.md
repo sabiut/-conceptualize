@@ -33,3 +33,8 @@
 
 
 # Identity and Access Management(IAM) Practice
+
+## Manage and Inline Policy
+manage policy are predefined policy define by AWS while inline policy are custom policy that are define by a user. it can be define or a group or individual user 
+### Inline Policy
+![S3 Inline Policy example](https://github.com/sabiut/-conceptualize/blob/master/AWS/inlinepolicy.png)
