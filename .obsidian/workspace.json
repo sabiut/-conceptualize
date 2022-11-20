@@ -138,11 +138,14 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "474f7a0325313927",
+  "active": "c84ca4944dc7a03e",
   "lastOpenFiles": [
+    "AWS/s3.png",
+    "!s3.md",
+    "!s3.png.md",
+    "AWS/Data Protection Services.md",
     "2022-11-20.md",
     "Docker.md",
-    "AWS/Data Protection Services.md",
     "ansible/Ansible.md",
     "Untitled.md"
   ]

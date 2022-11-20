@@ -27,6 +27,7 @@
 ### Illustrating IAM Users
 1) IAM user policy example that allow access to s3 bucket
   - Granting permissions to multiple accounts with added conditions
+  ![[s3.png]]
   
 {
     "Version": "2012-10-17",
@@ -39,7 +40,7 @@
                     "arn:aws:iam::111122223333:root",
                     "arn:aws:iam::444455556666:root"
                 ]
-            },
+            },p
             "Action": [
                 "s3:PutObject",
                 "s3:PutObjectAcl",
